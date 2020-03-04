@@ -5,7 +5,7 @@ if array.length == 2
 
 end
 if array.length > 2
-array[-1].insert(0, "and").to_s
+array[-1].insert(0, "and ").to_s
 end 
 array.join(", ")
 end
