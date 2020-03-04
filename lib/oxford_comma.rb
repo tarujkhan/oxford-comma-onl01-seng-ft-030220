@@ -1,7 +1,7 @@
 
 def oxford_comma(array)
-
-array << ", and" + to.s
+array = array.to_s
+array << ", and" 
 array
 end
 
