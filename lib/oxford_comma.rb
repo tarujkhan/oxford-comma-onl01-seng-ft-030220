@@ -1,7 +1,7 @@
 
 def oxford_comma(array)
 
-array << ", and"
+array << ", and"[-2]
 array
 end
 
